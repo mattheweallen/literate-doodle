@@ -43,3 +43,14 @@ az group delete \
 
 https://docs.microsoft.com/en-us/azure/static-web-apps/get-started-cli?tabs=react
 https://docs.microsoft.com/en-us/azure/static-web-apps/custom-domain
+
+
+
+
+## git bash development
+npm install
+npm start
+
+https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html
+
+npm install react react-dom
