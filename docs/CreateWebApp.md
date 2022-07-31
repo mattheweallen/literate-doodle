@@ -58,3 +58,4 @@ npm install react react-dom
 ## run tests
 https://playwright.dev/docs/test-cli
 npx playwright install
+npx playwright test
