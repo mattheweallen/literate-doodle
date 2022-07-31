@@ -54,3 +54,7 @@ npm start
 https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html
 
 npm install react react-dom
+
+## run tests
+https://playwright.dev/docs/test-cli
+npx playwright install
