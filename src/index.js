@@ -5,6 +5,10 @@ import './index.css';
 
 //ReactDOM.render(<App />, document.getElementById('root'));
 
+//update from react 16 to 18
+//https://stackoverflow.com/questions/62773674/react-suspense-concurrent-mode-not-working
+//https://reactjs.org/blog/2022/03/08/react-18-upgrade-guide.html
+
 function Square(props) {
     return (
       <button className="square" onClick={props.onClick}>
@@ -126,10 +130,10 @@ class Game extends React.Component {
 
 // ========================================
 
-//const root = ReactDOM.createRoot(document.getElementById("root"));
-//root.render(<Game />);
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Game />);
 
-ReactDOM.render(<Game />, document.getElementById('root'));
+//ReactDOM.render(<Game />, document.getElementById('root'));
 
 
 function calculateWinner(squares) {
